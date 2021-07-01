@@ -5,3 +5,5 @@ source 'https://rubygems.org'
 
 # Specify your gem's dependencies in conjur.gemspec
 gemspec
+
+gem 'conjur-api', :git => "git://github.com/cyberark/conjur-api-ruby", :branch => "move-authenticator-status-to-db"
